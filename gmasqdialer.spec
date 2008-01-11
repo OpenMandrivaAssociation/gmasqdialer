@@ -35,17 +35,6 @@ automake-1.4
 %makeinstall
 
 #Menu:
-mkdir -p %{buildroot}%{_menudir}
-cat > %{buildroot}%{_menudir}/%{name} << EOF
-?package(%{name}):\
-        command="%{_bindir}/%{name}" \
-	needs="x11" \
-	icon="%{name}.png" \
-	section="Internet/Remote Access" \
-	title="Gmasqdialer" \
-	longtitle="Gnome Client for the masqdialer modem server" \
-	xdg="true"
-EOF
 
 mkdir -p %{buildroot}%{_datadir}/applications
 cat > %{buildroot}%{_datadir}/applications/mandriva-%{name}.desktop << EOF
@@ -77,7 +66,6 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(-,root,root)
 %doc README COPYING ChangeLog
 %attr(755,root,root) %{_bindir}/*
-%{_menudir}/%{name}
 %{_datadir}/applications/mandriva-%{name}.desktop
 %{_miconsdir}/*.png
 %{_liconsdir}/*.png
