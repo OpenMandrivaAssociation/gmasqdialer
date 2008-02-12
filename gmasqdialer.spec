@@ -18,7 +18,7 @@ BuildRequires:	ImageMagick
 BuildRequires:	automake1.4
 
 %description
-Gnome client that allows a user to manipulate a Masqdialer controlled ppp link. 
+Gnome client that allows a user to manipulate a Masqdialer controlled ppp link.
 
 %prep
 %setup -q
