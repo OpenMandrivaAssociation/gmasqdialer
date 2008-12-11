@@ -14,7 +14,7 @@ Patch0:		gmasqdialer-0.99.13-deprecation.patch
 BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
 BuildRequires:	gtk+2-devel 
 BuildRequires:	scrollkeeper
-BuildRequires:	ImageMagick
+BuildRequires:	imagemagick
 BuildRequires:	automake1.4
 
 %description
