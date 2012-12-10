@@ -77,3 +77,50 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/pixmaps/*
 %{_datadir}/applications/%{name}.desktop
 
+
+
+%changelog
+* Fri Dec 10 2010 Oden Eriksson <oeriksson@mandriva.com> 0.99.13-9mdv2011.0
++ Revision: 618965
+- the mass rebuild of 2010.0 packages
+
+* Fri Sep 04 2009 Thierry Vignaud <tv@mandriva.org> 0.99.13-8mdv2010.0
++ Revision: 429219
+- rebuild
+
+  + Oden Eriksson <oeriksson@mandriva.com>
+    - lowercase ImageMagick
+
+* Thu Jul 24 2008 Thierry Vignaud <tv@mandriva.org> 0.99.13-7mdv2009.0
++ Revision: 246254
+- rebuild
+- fix description-line-too-long
+- drop old menu
+
+  + Pixel <pixel@mandriva.com>
+    - rpm filetriggers deprecates update_menus/update_scrollkeeper/update_mime_database/update_icon_cache/update_desktop_database/post_install_gconf_schemas
+
+* Fri Dec 21 2007 Olivier Blin <oblin@mandriva.com> 0.99.13-5mdv2008.1
++ Revision: 136445
+- restore BuildRoot
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - kill re-definition of %%buildroot on Pixel's request
+
+
+* Tue Sep 05 2006 Buchan Milne <bgmilne@mandriva.org>
++ 2006-09-05 13:13:40 (60054)
+xdg menu
+
+* Tue Sep 05 2006 Buchan Milne <bgmilne@mandriva.org>
++ 2006-09-05 12:52:40 (60051)
+buildrequire automake1.4
+
+* Tue Sep 05 2006 Buchan Milne <bgmilne@mandriva.org>
++ 2006-09-05 12:49:19 (60050)
+Import gmasqdialer
+
+* Sat May 13 2006 Frederic Crozat <fcrozat@mandriva.com> 0.99.13-3mdk
+- Patch0: don't enable gtk deprecation flags
+- Clean build requires to stop iurt spam
+
