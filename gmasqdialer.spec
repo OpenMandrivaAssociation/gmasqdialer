@@ -7,7 +7,7 @@ Version: 	%{ver}
 Release: 	%{rel}
 License: 	GPL
 Group:		Networking/Remote access
-URL:		http://www.dpinson.com/software/gmasqdialer/
+URL:		https://www.dpinson.com/software/gmasqdialer/
 Source: 	%{URL}/files/%{name}-%{ver}.tar.bz2
 # (fc) 0.99.13-3mdk disable gtk deprecation flags
 Patch0:		gmasqdialer-0.99.13-deprecation.patch
