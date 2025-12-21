@@ -12,6 +12,9 @@ Source: 	%{URL}/files/%{name}-%{ver}.tar.bz2
 # (fc) 0.99.13-3mdk disable gtk deprecation flags
 Patch0:		gmasqdialer-0.99.13-deprecation.patch
 BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
+BuildRequires:	autoconf
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
 BuildRequires:	gtk+2-devel 
 BuildRequires:	scrollkeeper
 BuildRequires:	imagemagick
