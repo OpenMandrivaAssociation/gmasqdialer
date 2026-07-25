@@ -1,5 +1,5 @@
 %define ver  	0.99.13
-%define rel	%mkrel 9
+%define rel	10
 
 Summary: 	GNOME/GTK Client for Masqdialer 
 Name: 		gmasqdialer
